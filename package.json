@@ -1,0 +1,19 @@
+{
+  "name": "dsh-sw2020",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "SolidWorks 2020 driver for DSH (Win7 / Python 3.8): connect to a running SolidWorks instance, build parametric parts, and run custom backend scripts.",
+  "keywords": ["dsh", "cordis", "plugin", "solidworks", "cad", "win7", "python38"],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": ["index.js", "cordis.patch.yml", "backend/*.py", "README.md"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

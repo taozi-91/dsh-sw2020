@@ -1,0 +1,18 @@
+# 依赖
+node_modules/
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 建模产物
+out/
+*.sldprt
+*.SLDPRT
+*.png
+
+# 本地调试与私有素材
+dev/
+*.swp

@@ -1,0 +1,6 @@
+- insert:
+    - id: sw2020
+      name: 'dsh-sw2020'
+      config:
+        pythonPath: 'python'
+        outDir: 'D:/AI/AI 工作区/dsh-sw2020/out'
